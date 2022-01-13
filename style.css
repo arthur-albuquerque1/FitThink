@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Oswald;
+}
+.big-container {
+    max-width: 100%;
+    margin: auto;
+}
+.small-container {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    overflow: auto;
+    color: white;
+}
+.left-header {
+    float: left;
+    margin-left: 10%;
+}
+.right-header {
+    float: right;
+    margin-right: 10%;
+}
+li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+.upper-li:hover {
+    color: black;
+    cursor: pointer;
+}
+.main-section {
+    margin-left: 10%;
+}
+.main-sect {
+    margin-left: 15px;
+}
+h3 {
+    font-size: 55px;
+}
+h1 {
+    font-size: 45px;
+}
+#button {
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+#button:hover {
+    background-color: rgb(85, 85, 85);
+}
+#p-ms {
+    font-size: 25px;
+}
+#p-ms:hover {
+    color: black;
+    cursor: pointer;
+}
+.b-left {
+    float: left;
+    margin-left: 10%
+}
+.b-right {
+    float: right;
+    margin-right: 10%;
+}
+.bottom-li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+.bottom-li:hover {
+    color: rgb(85, 85, 85);
+    cursor: pointer;
+}
+.img1 {
+    max-width: 200px;
+    float: left;
+    padding: 10px;
+    margin-left: 10%;
+}
+.img2 {
+    max-width: 200px;
+    float: left;
+    padding: 10px;
+    margin-left: 20%;
+}
+.img3 {
+    max-width: 200px;
+    float: right;
+    padding: 10px;
+    margin-right: 10%;
+}
